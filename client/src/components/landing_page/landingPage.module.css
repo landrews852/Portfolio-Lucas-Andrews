@@ -68,39 +68,6 @@ section {
   color: rgb(0, 0, 0);
 }
 
-.about_text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.about_text_p {
-  color: rgb(255, 153, 0);
-  font-size: 20px;
-  font-weight: bold;
-  text-align: center;
-}
-
-.skills {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.skills_title {
-  color: rgb(255, 153, 0);
-  font-size: 20px;
-  font-weight: bold;
-  text-align: center;
-}
-
-.skills_icons {
-  display: inline-block;
-  justify-content: space-around;
-  align-items: center;
-  width: 100%;
-}
-
 .sub_wrap2 {
   min-height: 100vh;
   background: rgb(180, 180, 180);
