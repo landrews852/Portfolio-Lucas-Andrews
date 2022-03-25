@@ -16,3 +16,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+li,
+ul,
+ol,
+form,
+input,
+textarea,
+button {
+  font-family: Geneva, "Montserrat", sans-serif;
+}

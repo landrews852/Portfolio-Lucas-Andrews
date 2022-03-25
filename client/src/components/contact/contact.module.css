@@ -2,6 +2,11 @@
   margin-bottom: 4rem;
 }
 
+.title h1 {
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+}
+
 label {
   font-size: 1rem;
   font-weight: 500;
@@ -42,9 +47,36 @@ textarea {
   outline: 0;
   height: 25px;
   width: 275px;
+  /* border-radius: 4px; */
 }
 
 textarea {
-  height: 35px;
+  min-height: 35px;
   resize: vertical;
+}
+
+.btn {
+  background-color: rgb(255, 255, 255);
+  border-radius: 4px;
+  color: rgb(0, 0, 0);
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.5rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  /* border-color: black; */
+  border: 1px solid rgb(255, 255, 255);
+  margin: 0.5rem;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+.btn:active {
+  transform: scale(0.9);
 }

@@ -3,7 +3,7 @@ import s from './card.module.css';
 
 export default function Card ({project, description, image, link}) {
   return (
-    <section>
+    <section className={s.wrap}>
       <div className={s.card}>
         <div className={s.title_wrap}>
           <h1 className={s.title}>{project}</h1>
