@@ -4,7 +4,16 @@
 
 a {
   display: inline-block;
-  padding: 5px 7%;
+  margin: 10px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+  transform: scale(1.2);
 }
 
 a:link {
@@ -37,7 +46,7 @@ section {
 }
 
 .navbar {
-  background-color: rgba(0, 0, 0, 1);
+  background-color: rgba(0, 0, 0, 0.719);
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -68,55 +77,15 @@ section {
   color: rgb(0, 0, 0);
 }
 
-.about_text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.about_text_p {
-  color: rgb(255, 153, 0);
-  font-size: 20px;
-  font-weight: bold;
-  text-align: center;
-}
-
-.skills {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.skills_title {
-  color: rgb(255, 153, 0);
-  font-size: 20px;
-  font-weight: bold;
-  text-align: center;
-}
-
-.skills_icons {
-  display: inline-block;
-  justify-content: space-around;
-  align-items: center;
-  width: 100%;
-}
-
 .sub_wrap2 {
   min-height: 100vh;
-  background: rgb(180, 180, 180);
   padding-top: 30px;
-}
-
-.sub_wrap2 h1 {
-  color: rgb(0, 0, 0);
+  background: rgb(0, 0, 0);
+  /* background-image: url("https://c.tenor.com/BRDnAfz1WfsAAAPo/hacker.mp4");
+  background-size: cover; */
 }
 
 .sub_wrap3 {
   min-height: 50vh;
-  background: rgb(0, 0, 0);
-  padding-top: 30px;
-}
-
-.sub_wrap3 h1 {
-  color: rgb(255, 255, 255);
+  background: rgb(255, 255, 255);
 }

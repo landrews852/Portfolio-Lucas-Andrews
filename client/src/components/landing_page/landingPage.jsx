@@ -2,6 +2,7 @@ import React from 'react';
 import s from './landingPage.module.css';
 import About from '../about/about';
 import Projects from '../projects/projects';
+import Contact from '../contact/contact';
 
 export default function LandingPage() {
   return (
@@ -25,11 +26,7 @@ export default function LandingPage() {
         <Projects />
       </section>
       <section id="contact" className={s.sub_wrap3}>
-        <div className={s.title}>
-          <h1>Contact</h1>
-        </div>
-        <div className={s.cards}>
-        </div>
+        <Contact />
       </section>
     </section>
   );
