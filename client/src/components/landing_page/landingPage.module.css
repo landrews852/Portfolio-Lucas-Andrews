@@ -21,6 +21,20 @@ a:visited {
   color: white;
 }
 
+.logo1 {
+  width: 23px;
+  height: 23px;
+  margin-top: 1px;
+  margin-left: 10px;
+}
+
+.logo2 {
+  width: 21px;
+  height: 21px;
+  margin-top: 1px;
+  margin-left: 10px;
+}
+
 .wrap {
   min-height: 100%;
 }
@@ -37,13 +51,29 @@ section {
 }
 
 .navbar {
-  background-color: rgba(0, 0, 0, 0.719);
+  background-color: rgba(0, 0, 0, 0.85);
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-direction: row;
   height: 40px;
+  z-index: 100;
   /* padding-top: 15px; */
+}
+
+.navbar_title {
+  display: flex;
+  align-items: center;
+}
+
+.navlink:hover {
+  transition: all 0.15s ease-in-out;
+  transform: scale(1.08);
+}
+
+.navlink_logo:hover {
+  transition: all 0.15s ease-in-out;
+  transform: scale(1.2);
 }
 
 .navbar_links {

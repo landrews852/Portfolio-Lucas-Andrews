@@ -14,6 +14,7 @@ export default function Contact() {
   })
   }
 
+  const [error, setError] = useState("");
   const [form, setForm] = useState({
     name: "",
     email: "",
