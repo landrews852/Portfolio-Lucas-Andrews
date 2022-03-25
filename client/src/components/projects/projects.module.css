@@ -1,10 +1,22 @@
 .wrap {
   /* background-image: url("https://tenor.com/es/ver/hacker-gif-20658045");
   background-size: cover; */
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .title h1 {
   color: rgb(255, 255, 255);
   font-size: 30px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }

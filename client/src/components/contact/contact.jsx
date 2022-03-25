@@ -1,7 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
 import s from './contact.module.css';
+import Swal from 'sweetalert2'
+// import { useForm } from 'react-hook-form';
 
 export default function Contact() {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    Swal.fire({
+      title: 'Thank you!',
+      text: 'Your message has been sent!',
+      icon: 'success',
+      confirmButtonText: 'Cool'
+  })
+  }
+
+  const [form, setForm] = useState({
+    name: "",
+    email: "",
+    message: ""
+  })
+
   return (
     <section className={s.wrap}>
       <div className={s.title}>
@@ -21,6 +39,7 @@ export default function Contact() {
             <label htmlFor="name">Message</label>
             <textarea name="message" id="message" placeholder='Here you can express your-self :)...'/>
           </div>
+          <button className={s.btn} onClick={handleSubmit}>Submit</button>
         </form>
       </div>
     </section>
