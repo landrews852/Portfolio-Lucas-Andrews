@@ -1,0 +1,10 @@
+.wrap {
+  /* background-image: url("https://tenor.com/es/ver/hacker-gif-20658045");
+  background-size: cover; */
+  margin-bottom: 1.5rem;
+}
+
+.title h1 {
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+}

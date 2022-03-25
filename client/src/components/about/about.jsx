@@ -1,16 +1,22 @@
 import React from "react";
 import s from "./about.module.css";
+import picture from "../../images/profile_picture.png"
 
 export default function About () {
   return (
-    <section>
-      <div className={s.title}>
+    <section className={s.wrap}>
+      <div className={s.about_title}>
         <h1>About me</h1>
       </div>
-      <div className={s.about_text}>
-        <p className={s.about_text_p}>Hi, I am Lucas Andrews and here you will see all my work as developer.</p>
-        <p className={s.about_text_p}>I am a Full Stack Developer and I work mainly with "PERN" stack (PostgreSQL - Express - React.js - Node.js), seeking for new useful knowledge to add to my tech skills.</p>
-        <p className={s.about_text_p}>I am actually learning Next.js and constantly practicing with React.js</p>
+      <div className={s.img_txt_wrap}>
+        <div className={s.img_wrap}>
+          <img className={s.img} src={picture} alt="profile_picture"/>
+        </div>
+        <div className={s.txt_wrap}>
+          <p className={s.txt}>Hi, I am Lucas Andrews and here you will see all my work as developer.</p>
+          <p className={s.txt}>I am a Full Stack Developer and I am focused mainly on  "PERN" stack (PostgreSQL - Express - React.js - Node.js), seeking for new useful knowledge to add to my tech skills.</p>
+          <p className={s.txt}>I am actually learning Next.js and constantly practicing with React.js and looking for job opportunity to share my actual knowledge and learn new ones.</p>
+        </div>
       </div>
       <div className={s.skills}>
         <h3 className={s.skills_title}>Languages and Tools:</h3>
