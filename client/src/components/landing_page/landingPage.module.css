@@ -8,10 +8,6 @@ a {
   transition: all 0.3s ease-in-out;
 }
 
-a:hover {
-  transform: scale(1.2);
-}
-
 a:link {
   text-decoration: none;
   color: white;
@@ -24,14 +20,14 @@ a:visited {
 .logo1 {
   width: 23px;
   height: 23px;
-  margin-top: 1px;
+  margin-top: 2px;
   margin-left: 10px;
 }
 
 .logo2 {
   width: 21px;
   height: 21px;
-  margin-top: 1px;
+  margin-top: 2px;
   margin-left: 10px;
 }
 
@@ -63,12 +59,17 @@ section {
 
 .navbar_title {
   display: flex;
+  justify-content: space-around;
+  flex-direction: row;
   align-items: center;
 }
 
 .navlink:hover {
   transition: all 0.15s ease-in-out;
-  transform: scale(1.08);
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  padding: 2px;
+  border-radius: 5px;
 }
 
 .navlink_logo:hover {
@@ -80,18 +81,18 @@ section {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
+  align-items: center;
 }
 
-.navbar_title p {
+/* .navbar_title p {
   font-size: 20px;
   font-weight: bold;
   color: rgb(255, 0, 0);
-}
+} */
 
 .sub_wrap1 {
-  min-height: 100vh;
   background: gradient (linear rgb(255, 255, 255), rgb(180, 180, 180));
-  padding-top: 30px;
+  padding-top: 1px;
 }
 
 .sub_wrap1 h1 {
@@ -99,8 +100,7 @@ section {
 }
 
 .sub_wrap2 {
-  min-height: 100vh;
-  padding-top: 30px;
+  padding-top: 1px;
   background: rgb(0, 0, 0);
   padding-bottom: 1rem;
   align-items: center;
@@ -115,5 +115,20 @@ section {
   min-height: 50vh;
   background: rgb(255, 255, 255);
   align-items: center;
+  padding-top: 1px;
   justify-content: center;
+}
+
+.footer {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* height: 30px; */
+  font-size: 15px;
+  font-weight: bold;
+  padding-top: 3px;
+  padding-bottom: 3px;
 }

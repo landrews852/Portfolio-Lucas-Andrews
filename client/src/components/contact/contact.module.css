@@ -80,3 +80,9 @@ textarea {
 .btn:active {
   transform: scale(0.9);
 }
+
+@media screen and (max-width: 600px) {
+  .form {
+    width: 80%;
+  }
+}
