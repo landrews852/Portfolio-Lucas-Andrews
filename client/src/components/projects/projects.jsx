@@ -2,6 +2,7 @@ import React from 'react';
 import s from './projects.module.css';
 import Card from '../card/card';
 import proj1 from '../../images/gaming_metaverse_img1.png';
+import proj2 from '../../images/beautify.png';
 
 export default function Projects () {
   return (
@@ -13,7 +14,7 @@ export default function Projects () {
         <Card
           project="Beautify E-commerce: Your beauty depends on you"
           description="Single-page Application made with SCRUM methodology in 3 weeks by a team of Full Stack Devs using React.js, Redux, Node.js, Express, Postgres, Bootstrap, Auth0, MercadoPago and more."
-          image={proj1}
+          image={proj2}
           link="https://beautify-three.vercel.app/"
         />
         <Card
@@ -25,7 +26,7 @@ export default function Projects () {
             Algunos features del proyecto: Cache de búsquedas, ordenamientos y filtros, formulario controlado para
             creación de"
           image={proj1}
-          link="https://pi-videogames.vercel.app/"
+          link={null}
         />
       </div>
     </div>
