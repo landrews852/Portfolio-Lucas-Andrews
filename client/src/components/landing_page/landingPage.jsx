@@ -13,8 +13,8 @@ export default function LandingPage() {
         <div className={s.navbar}>
           <div className={s.navbar_title}>
             <a className={s.navlink} href='# '>Lucas_Andrews.portfolio</a>
-            <a className={s.navlink} href='https://github.com/landrews852'><img className={s.logo1} src={github}/></a>
-            <a className={s.navlink} href='https://www.linkedin.com/in/landrewsl/'><img className={s.logo2} src={linkedin}/></a>
+            <a className={s.navlink_logo} href='https://github.com/landrews852'><img className={s.logo1} src={github}/></a>
+            <a className={s.navlink_logo} href='https://www.linkedin.com/in/landrewsl/'><img className={s.logo2} src={linkedin}/></a>
           </div>
           <div className={s.navbar_links}>
             <a className={s.navlink} href="#about">About</a>
@@ -31,6 +31,11 @@ export default function LandingPage() {
       </section>
       <section id="contact" className={s.sub_wrap3}>
         <Contact />
+      </section>
+      <section>
+        <div className={s.footer}>
+          <p className={s.footer_text}>© 2022 Lucas Andrews. All rights reserved.</p>
+        </div>
       </section>
     </section>
   );

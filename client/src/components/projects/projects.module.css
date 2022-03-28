@@ -2,7 +2,7 @@
   /* background-image: url("https://tenor.com/es/ver/hacker-gif-20658045");
   background-size: cover; */
   margin-bottom: 2rem;
-  align-items: center;
+  align-content: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -14,9 +14,12 @@
 }
 
 .cards {
+  /* position: relative; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  align-content: center;
+  width: 100vw;
+  /* left: 3vw;
+  right: 3vw; */
 }

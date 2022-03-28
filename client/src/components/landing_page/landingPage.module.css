@@ -8,10 +8,6 @@ a {
   transition: all 0.3s ease-in-out;
 }
 
-a:hover {
-  transform: scale(1.2);
-}
-
 a:link {
   text-decoration: none;
   color: white;
@@ -24,14 +20,14 @@ a:visited {
 .logo1 {
   width: 23px;
   height: 23px;
-  margin-top: 1px;
+  margin-top: 2px;
   margin-left: 10px;
 }
 
 .logo2 {
   width: 21px;
   height: 21px;
-  margin-top: 1px;
+  margin-top: 2px;
   margin-left: 10px;
 }
 
@@ -41,7 +37,6 @@ a:visited {
 
 section {
   width: 100%;
-  /* scroll-behavior: smooth; */
 }
 
 .navbar_section {
@@ -58,17 +53,44 @@ section {
   flex-direction: row;
   height: 40px;
   z-index: 100;
-  /* padding-top: 15px; */
 }
 
 .navbar_title {
   display: flex;
+  justify-content: space-around;
+  flex-direction: row;
   align-items: center;
 }
 
+.navlink {
+  transition: all 0.3s ease-in-out;
+  background-color: rgb(0, 0, 0 0.85);
+  color: rgb(255, 255, 255);
+  padding: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 5px;
+}
+
 .navlink:hover {
+  transition: all 0.3s ease-in-out;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  padding: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 5px;
+}
+
+.navlink:active {
   transition: all 0.15s ease-in-out;
-  transform: scale(1.08);
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  padding: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 5px;
+  transform: scale(0.9);
 }
 
 .navlink_logo:hover {
@@ -80,18 +102,12 @@ section {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
-}
-
-.navbar_title p {
-  font-size: 20px;
-  font-weight: bold;
-  color: rgb(255, 0, 0);
+  align-items: center;
 }
 
 .sub_wrap1 {
-  min-height: 100vh;
   background: gradient (linear rgb(255, 255, 255), rgb(180, 180, 180));
-  padding-top: 30px;
+  padding-top: 1px;
 }
 
 .sub_wrap1 h1 {
@@ -99,15 +115,11 @@ section {
 }
 
 .sub_wrap2 {
-  min-height: 100vh;
-  padding-top: 30px;
+  padding-top: 1px;
   background: rgb(0, 0, 0);
   padding-bottom: 1rem;
   align-items: center;
   display: flex;
-  /* flex-direction: column; */
-  /* background-image: url("https://c.tenor.com/BRDnAfz1WfsAAAPo/hacker.mp4");
-  background-size: cover; */
 }
 
 .sub_wrap3 {
@@ -115,5 +127,19 @@ section {
   min-height: 50vh;
   background: rgb(255, 255, 255);
   align-items: center;
+  padding-top: 1px;
   justify-content: center;
+}
+
+.footer {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 15px;
+  font-weight: bold;
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
