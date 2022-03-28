@@ -1,6 +1,7 @@
 .wrap {
   align-items: center;
   display: flex;
+  margin: auto;
 }
 
 .card {
@@ -13,7 +14,9 @@
   justify-content: space-around;
   padding: 2rem;
   width: 85%;
-  margin: 1.5rem;
+  margin: auto;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
   align-items: center;
 }
 
@@ -77,8 +80,8 @@
   margin: 0.5rem;
   transition: all 0.3s ease-in-out;
   transform: scale(1);
-  position: static;
-  z-index: 1;
+  /* position: static;
+  z-index: 1; */
 }
 
 .link:hover {
