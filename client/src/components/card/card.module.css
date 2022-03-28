@@ -95,4 +95,12 @@
   .card {
     width: 90%;
   }
+
+  .content_wrap {
+    flex-direction: column;
+  }
+
+  .img {
+    max-width: 100%;
+  }
 }
