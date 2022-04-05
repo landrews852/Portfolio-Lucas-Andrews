@@ -1,5 +1,6 @@
 .wrap {
   padding-top: 10px;
+  background-color: rgb(245, 245, 245);
 }
 
 .about_title {
@@ -39,7 +40,7 @@
 
 .txt {
   display: flex;
-  color: rgb(47, 101, 218);
+  /* color: rgb(47, 101, 218); */
   color: rgb(238, 106, 18);
   font-size: 20px;
   font-weight: bold;

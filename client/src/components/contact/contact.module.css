@@ -16,7 +16,7 @@
 label {
   font-size: 1rem;
   font-weight: 500;
-  color: rgb(255, 255, 255);
+  color: rgb(245, 245, 245);
   letter-spacing: 0.1em;
   margin-bottom: 0.5rem;
   min-width: 60px;
@@ -39,7 +39,7 @@ label {
 }
 
 .link {
-  color: rgb(255, 255, 255) !important;
+  color: rgb(245, 245, 245) !important;
   font-size: 20px !important ;
   align-items: center;
   justify-content: center;
@@ -80,7 +80,7 @@ textarea {
 }
 
 .btn {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(245, 245, 245);
   border-radius: 4px;
   color: rgb(0, 0, 0);
   font-size: 1rem;
@@ -90,7 +90,7 @@ textarea {
   text-decoration: none;
   display: inline-block;
   /* border-color: black; */
-  border: 1px solid rgb(255, 255, 255);
+  border: 1px solid rgb(245, 245, 245);
   margin: 0.5rem;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
@@ -98,7 +98,7 @@ textarea {
 
 .btn:hover {
   background-color: rgba(0, 0, 0, 0);
-  color: rgb(255, 255, 255);
+  color: rgb(245, 245, 245);
 }
 
 .btn:active {
