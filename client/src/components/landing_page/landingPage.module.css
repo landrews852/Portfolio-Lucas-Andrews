@@ -42,9 +42,9 @@ section {
 .navbar_section {
   position: sticky;
   top: 0;
-  height: 15px;
   z-index: 100;
   max-width: 100%;
+  height: 0px;
 }
 
 .navbar {
@@ -143,4 +143,24 @@ section {
   font-weight: bold;
   padding-top: 3px;
   padding-bottom: 3px;
+}
+
+@media screen and (max-width: 691px) {
+  .navbar_section {
+    /* height: 35px; */
+    flex-direction: row;
+  }
+
+  .navbar {
+    flex-direction: column;
+    height: 70px;
+  }
+
+  /* .navbar_title {
+    flex-direction: column;
+  } */
+
+  .navbar_links {
+    margin-top: -15px;
+  }
 }
