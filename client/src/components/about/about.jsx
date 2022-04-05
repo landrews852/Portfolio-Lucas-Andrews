@@ -15,7 +15,7 @@ export default function About () {
         <div className={s.txt_wrap}>
           <p className={s.txt}>Hi, I am Lucas Andrews and here you will see all my work as developer.</p>
           <p className={s.txt}>I am a Full Stack Developer and I am focused mainly on  "PERN" stack (PostgreSQL - Express - React.js - Node.js), seeking for new useful knowledge to add to my tech skills.</p>
-          <p className={s.txt}>I am actually learning Next.js and constantly practicing with React.js and looking for job opportunity to share my actual knowledge and learn new ones.</p>
+          <p className={s.txt}>I am actually learning Next.js and constantly practicing with React.js, looking for a new job opportunity to share my actual knowledge and learn new ones.</p>
         </div>
       </div>
       <div className={s.skills}>

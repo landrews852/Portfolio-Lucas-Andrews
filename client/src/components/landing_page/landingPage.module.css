@@ -66,7 +66,7 @@ section {
 .navlink {
   transition: all 0.3s ease-in-out;
   background-color: rgb(0, 0, 0 0.85);
-  color: rgb(255, 255, 255);
+  color: rgb(245, 245, 245);
   padding: 2px;
   padding-left: 5px;
   padding-right: 5px;
@@ -75,7 +75,7 @@ section {
 
 .navlink:hover {
   transition: all 0.3s ease-in-out;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(245, 245, 245);
   color: rgb(0, 0, 0);
   padding: 2px;
   padding-left: 5px;
@@ -85,7 +85,7 @@ section {
 
 .navlink:active {
   transition: all 0.15s ease-in-out;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(245, 245, 245);
   color: rgb(0, 0, 0);
   padding: 2px;
   padding-left: 5px;
@@ -107,7 +107,7 @@ section {
 }
 
 .sub_wrap1 {
-  background: gradient (linear rgb(255, 255, 255), rgb(180, 180, 180));
+  background: gradient (linear rgb(245, 245, 245), rgb(180, 180, 180));
   padding-top: 1px;
 }
 
@@ -126,7 +126,7 @@ section {
 .sub_wrap3 {
   display: flex;
   min-height: 50vh;
-  background: rgb(255, 255, 255);
+  background: rgb(245, 245, 245);
   align-items: center;
   padding-top: 1px;
   justify-content: center;
@@ -134,7 +134,7 @@ section {
 
 .footer {
   background-color: rgb(0, 0, 0);
-  color: rgb(255, 255, 255);
+  color: rgb(245, 245, 245);
   display: flex;
   justify-content: center;
   align-items: center;
