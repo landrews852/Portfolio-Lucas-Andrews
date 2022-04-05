@@ -20,9 +20,11 @@ export default function Card ({project, description, image, link}) {
             ?<div className={s.link_wrap}>
               <a className={s.link} href={link}>Visit this project</a>
             </div>
-            :<div className={s.link_wrap}>
-              <button className={s.link_disabled} disabled >Página en mantención</button>
-            </div>}
+            :null
+            // <div className={s.link_wrap}>
+            //   <button className={s.link_disabled} disabled ></button>
+            // </div>
+            }
           </div>
         </div>
       </div>

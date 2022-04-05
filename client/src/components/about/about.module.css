@@ -1,3 +1,7 @@
+.wrap {
+  padding-top: 10px;
+}
+
 .about_title {
   font-size: 30px;
   font-weight: bold;
@@ -84,5 +88,11 @@
 
   .skills {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 691px) {
+  .wrap {
+    padding-top: 40px;
   }
 }

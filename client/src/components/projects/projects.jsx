@@ -13,20 +13,17 @@ export default function Projects () {
       <div className={s.cards}>
         <Card
           project="Beautify E-commerce: Your beauty depends on you"
-          description="Single-page Application made with SCRUM methodology in 3 weeks by a team of Full Stack Devs using React.js, Redux, Node.js, Express, Postgres, Bootstrap, Auth0, MercadoPago and more."
+          description="Single-page Application made with SCRUM methodology in 3 weeks by a team of Full Stack Devs using React.js, Redux, Node.js, Express, Postgres, Bootstrap, Auth0, MercadoPago and more. Some of the features include: checkout, cart, payment, shipping, schedule appointments and more."
           image={proj2}
           link="https://beautify-three.vercel.app/"
+          tech="React.js, Redux, Node.js, Express, Postgres, Bootstrap, Auth0, MercadoPago, Stripe, Mailchimp, and more."
         />
         <Card
           project="PI-Videogames"
-          description="Desarrollo de una SPA (Single Page Application) utilizando React para el Front End y keaux como stâre
-            management. Todos los componentes fueron desarrollados con CSS sin uso de librerías externas.
-            La SPA consume datos de una API rawg a través de un Back End desarrollado en Node.JS
-            utilizando Express, agregando nuevas funcionalidades a la API original.
-            Algunos features del proyecto: Cache de búsquedas, ordenamientos y filtros, formulario controlado para
-            creación de"
+          description="Development of a SPA (Single Page Application) using React for the Front End and Redux as store management. Every component was develop with CSS without using external libraries. The SPA consume data from 'Rawg' API through a Back End developed in Node.JS using Express, adding new functionalities to the original API. Some features of the project: Searching, sorts and filters, controlled form for the creation of new video games, among others."
           image={proj1}
           link={null}
+          tech="React.js, Redux, Node.js, Express, Postgres and more."
         />
       </div>
     </div>
