@@ -29,7 +29,11 @@
   object-fit: cover;
   border-radius: 1000px;
   padding-bottom: -100px;
-  /* background-color: rgb(238, 106, 18); */
+  transition: all 0.5s ease-in-out;
+}
+
+.img:hover {
+  background-color: rgb(238, 106, 18);
 }
 
 .txt_wrap {
