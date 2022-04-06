@@ -18,6 +18,9 @@ export default function About () {
           <p className={s.txt}>I am actually learning Next.js and constantly practicing with React.js, looking for a new job opportunity to share my actual knowledge and learn new ones.</p>
         </div>
       </div>
+      <div className={s.cv}>
+        <a href="/Docs/Lucas_Andrews_CV_ENG.pdf" target="_blank">¡¡ Click here to see my <b>CV/resume</b> !!</a>
+      </div>
       <div className={s.skills}>
         <h3 className={s.skills_title}>Languages and Tools:</h3>
         <div className={s.skills_icons}>
