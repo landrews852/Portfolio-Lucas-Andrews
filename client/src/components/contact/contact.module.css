@@ -48,6 +48,10 @@ label {
   flex-direction: row;
 }
 
+.link:hover {
+  color: rgb(238, 106, 18) !important;
+}
+
 .icon {
   width: 30px;
   margin-right: 10px;
