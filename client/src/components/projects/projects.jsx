@@ -14,7 +14,7 @@ export default function Projects () {
         <Card
           project="Beautify E-commerce: Your beauty depends on you"
           description="Single-page Application made with SCRUM methodology in 3 weeks by a team of Full Stack Devs using React.js, Redux, Node.js, Express, Postgres, Bootstrap, Auth0, MercadoPago and more. Some of the features include: checkout, cart, payment, shipping, schedule appointments and more."
-          image={proj2}
+          iframe="https://www.youtube.com/embed/8b-8j48QMqE"
           link="https://beautify-three.vercel.app/"
           tech="React.js, Redux, Node.js, Express, Postgres, Bootstrap, Auth0, MercadoPago, Stripe, Mailchimp, and more."
         />
