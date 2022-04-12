@@ -6,7 +6,7 @@ import proj2 from '../../images/beautify.png';
 
 export default function Projects () {
   return (
-    <div className={s.wrap}>
+    <section className={s.wrap}>
       <div className={s.title}>
         <h1>Projects</h1>
       </div>
@@ -26,6 +26,6 @@ export default function Projects () {
           tech="React.js, Redux, Node.js, Express, Postgres and more."
         />
       </div>
-    </div>
+    </section>
   )
 }
