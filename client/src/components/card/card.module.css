@@ -1,7 +1,7 @@
 .wrap {
   align-items: center;
   display: flex;
-  margin: auto;
+  justify-content: center;
 }
 
 .card {
@@ -14,9 +14,8 @@
   justify-content: space-around;
   padding: 2rem;
   width: 85%;
-  margin: auto;
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
+  /* margin: auto; */
+  margin: 2rem auto;
   align-items: center;
 }
 
@@ -127,7 +126,7 @@
 @media screen and (max-width: 1000px) {
   .card {
     width: 90%;
-    margin: 10px;
+    margin: 1.5rem 10px;
   }
 
   .description_wrap {

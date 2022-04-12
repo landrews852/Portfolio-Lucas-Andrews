@@ -48,12 +48,15 @@ section {
 }
 
 .navbar {
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: rgb(0, 0, 0);
+  /* background: linear-gradient(rgb(0, 0, 0), rgb(37, 17, 2), rgb(102, 45, 7));
+  box-shadow: 1px 1px 20px 5px rgba(238, 106, 18, 0.363); */
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-direction: row;
   height: 40px;
+  border-bottom: 1px solid rgb(238, 106, 18);
 }
 
 .navbar_title {
@@ -75,7 +78,7 @@ section {
 
 .navlink:hover {
   transition: all 0.3s ease-in-out;
-  background-color: rgb(245, 245, 245);
+  background-color: rgb(238, 106, 18);
   color: rgb(0, 0, 0);
   padding: 2px;
   padding-left: 5px;
@@ -107,7 +110,7 @@ section {
 }
 
 .sub_wrap1 {
-  background: gradient (linear rgb(245, 245, 245), rgb(180, 180, 180));
+  background-color: rgb(245, 245, 245);
   padding-top: 1px;
 }
 
@@ -117,7 +120,7 @@ section {
 
 .sub_wrap2 {
   padding-top: 1px;
-  background: rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0);
   padding-bottom: 1rem;
   align-items: center;
   display: flex;
@@ -126,14 +129,21 @@ section {
 .sub_wrap3 {
   display: flex;
   min-height: 50vh;
-  background: rgb(245, 245, 245);
+  background-color: rgb(245, 245, 245);
   align-items: center;
   padding-top: 1px;
   justify-content: center;
 }
 
+.sub_wrap1,
+.sub_wrap2,
+.sub_wrap3 {
+  padding: 20px 0 0;
+}
+
 .footer {
   background-color: rgb(0, 0, 0);
+  /* background: linear-gradient(rgb(102, 45, 7), rgb(37, 17, 2), rgb(0, 0, 0)); */
   color: rgb(245, 245, 245);
   display: flex;
   justify-content: center;
@@ -162,5 +172,11 @@ section {
 
   .navbar_links {
     margin-top: -15px;
+  }
+
+  .sub_wrap1,
+  .sub_wrap2,
+  .sub_wrap3 {
+    padding: 45px 0 0;
   }
 }
