@@ -126,7 +126,7 @@
 @media screen and (max-width: 1000px) {
   .card {
     width: 90%;
-    margin: 1.5rem 10px;
+    margin: 1.5rem 30px;
   }
 
   .description_wrap {
@@ -143,6 +143,11 @@
 }
 
 @media screen and (max-width: 600px) {
+  .card {
+    width: 90%;
+    margin: 1.5rem 10px;
+  }
+
   .content_wrap img {
     width: auto;
     max-width: 100%;
@@ -153,5 +158,21 @@
     width: auto;
     /* max-width: 100%; */
     height: auto;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .content_wrap img {
+    max-width: 290px;
+    height: auto;
+  }
+
+  .content_wrap iframe {
+    max-width: 290px;
+    height: auto;
+  }
+
+  .card {
+    padding: 10px;
   }
 }

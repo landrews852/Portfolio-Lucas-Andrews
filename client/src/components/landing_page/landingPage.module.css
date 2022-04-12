@@ -47,6 +47,10 @@ section {
   height: 0px;
 }
 
+.wrap_nav {
+  border-bottom: 2px solid #000000;
+}
+
 .navbar {
   background-color: rgb(0, 0, 0);
   /* background: linear-gradient(rgb(0, 0, 0), rgb(37, 17, 2), rgb(102, 45, 7));
@@ -178,5 +182,11 @@ section {
   .sub_wrap2,
   .sub_wrap3 {
     padding: 45px 0 0;
+  }
+}
+
+@media screen and (max-width: 385px) {
+  .navlink_logo {
+    display: none;
   }
 }
