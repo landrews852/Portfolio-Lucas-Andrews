@@ -123,9 +123,18 @@ textarea {
 
 @media screen and (max-width: 400px) {
   .form {
-    width: 92%;
+    width: 90%;
   }
   .txt {
-    font-size: 18px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .form {
+    width: 90%;
+  }
+  .txt {
+    font-size: 14px;
   }
 }

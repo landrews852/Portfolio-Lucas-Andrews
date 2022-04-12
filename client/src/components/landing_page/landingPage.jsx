@@ -10,16 +10,18 @@ export default function LandingPage() {
   return (
     <section className={s.wrap}>
       <section className={s.navbar_section}>
-        <div className={s.navbar}>
-          <div className={s.navbar_title}>
-            <a className={s.navlink} href='# '>Lucas_Andrews.portfolio</a>
-            <a className={s.navlink_logo} href='https://github.com/landrews852'><img className={s.logo1} src={github}/></a>
-            <a className={s.navlink_logo} href='https://www.linkedin.com/in/landrewsl/'><img className={s.logo2} src={linkedin}/></a>
-          </div>
-          <div className={s.navbar_links}>
-            <a className={s.navlink} href="#about">About</a>
-            <a className={s.navlink} href="#projects">Projects</a>
-            <a className={s.navlink} href="#contact">Contact</a>
+        <div className={s.wrap_nav}>
+          <div className={s.navbar}>
+            <div className={s.navbar_title}>
+              <a className={s.navlink} href='# '>Lucas_Andrews.portfolio</a>
+              <a className={s.navlink_logo} href='https://github.com/landrews852'><img className={s.logo1} src={github}/></a>
+              <a className={s.navlink_logo} href='https://www.linkedin.com/in/landrewsl/'><img className={s.logo2} src={linkedin}/></a>
+            </div>
+            <div className={s.navbar_links}>
+              <a className={s.navlink} href="#about">About</a>
+              <a className={s.navlink} href="#projects">Projects</a>
+              <a className={s.navlink} href="#contact">Contact</a>
+            </div>
           </div>
         </div>
       </section>
