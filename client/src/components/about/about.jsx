@@ -9,20 +9,25 @@ export default function About () {
         <h1>About me</h1>
       </div>
       <div className={s.img_txt_wrap}>
-        <div className={s.img_wrap}>
+        <div className={s.profile}>
           <img className={s.img} src={picture} alt="profile_picture"/>
+          <div className={s.infocard}>
+            <span className={s.infocard_item}>Lucas Andrews</span>
+            <span className={s.infocard_item}>Santiago de Chile</span>
+            <span className={s.infocard_item}>29 años</span>
+          </div>
+        </div>
+        <div className={s.txt_wrap}>
+          <p className={s.txt}>Here you will see some of my work as Full Stack Developer.</p>
+          <p className={s.txt}>I am focused mainly on "PERN" and "MERN" stack (PostgreSQL / MongoDB - Express - React.js - Node.js), seeking for new useful knowledge to add to my tech skills.</p>
+          <p className={s.txt}>I am actually learning Next.js and constantly practicing with React.js, looking for a new job opportunity to share my actual knowledge and learn new ones.</p>
           <div className={s.cv}>
             <a href="/Docs/Lucas_Andrews_CV_ENG.pdf" target="_blank">¡¡ Click here to see my <b>CV/resume</b> !!</a>
           </div>
         </div>
-        <div className={s.txt_wrap}>
-          <p className={s.txt}>Hi, I am Lucas Andrews and here you will see all my work as developer.</p>
-          <p className={s.txt}>I am a Full Stack Developer and I am focused mainly on "PERN" and "MERN" stack (PostgreSQL / MongoDB - Express - React.js - Node.js), seeking for new useful knowledge to add to my tech skills.</p>
-          <p className={s.txt}>I am actually learning Next.js and constantly practicing with React.js, looking for a new job opportunity to share my actual knowledge and learn new ones.</p>
-        </div>
       </div>
       <div className={s.skills}>
-        <h3 className={s.skills_title}>Languages and Tools:</h3>
+        <h3 className={s.skills_title}>Languages and Tools</h3>
         <div className={s.skills_icons}>
           <a className={s.link_skills} href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/></a>
           <a className={s.link_skills} href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/></a>

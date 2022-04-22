@@ -35,14 +35,14 @@
 }
 
 .content_wrap iframe {
-  border-radius: 10px;
+  border-radius: 4px;
   object-fit: cover;
   width: 500px;
   height: 280px;
 }
 
 .content_wrap img {
-  border-radius: 10px;
+  border-radius: 4px;
   object-fit: cover;
   max-width: 500px;
 }
