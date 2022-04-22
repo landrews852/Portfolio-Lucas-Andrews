@@ -3,7 +3,7 @@
 }
 
 .about_title {
-  font-size: 30px;
+  font-size: 32px;
   font-weight: bold;
   padding-top: 25px;
 }
@@ -18,26 +18,43 @@
   height: 100%;
 }
 
-.img_wrap {
+.profile {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: start;
+  align-items: start;
+  height: 100%;
 }
 
 .img {
   height: 400px;
   width: 300px;
   object-fit: cover;
-  border-radius: 1000px;
+  border-radius: 10px 10px 0 0;
   padding-bottom: -100px;
   transition: all 0.5s ease-in-out;
 }
 
+.infocard {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  height: 100%;
+  width: 278px;
+  border: 1px solid rgb(0, 0, 0);
+  border-top: none;
+  border-radius: 0 0 10px 10px;
+  padding: 10px;
+}
+
+.infocard_item {
+  margin: 0 0 5px 10px;
+}
+
 .img:hover {
   background-color: rgb(238, 106, 18);
-  transform: scale(1.01);
-  border-radius: 20px;
+
+  /* border-radius: 20px; */
 }
 
 .txt_wrap {
@@ -46,7 +63,6 @@
   justify-content: space-around;
   height: 100%;
   flex-direction: column;
-  /* align-items: center; */
   width: 55%;
 }
 
@@ -126,11 +142,5 @@
 
   .skills {
     width: 100%;
-  }
-}
-
-@media screen and (max-width: 691px) {
-  .wrap {
-    /* padding-top: 40px; */
   }
 }
