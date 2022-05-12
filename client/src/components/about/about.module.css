@@ -75,25 +75,27 @@
   text-align: center;
 }
 
-.cv {
-  margin: 25px 20px 15px;
-  align-items: center;
-}
+/* .cv {
+} */
 
 .cv a {
+  margin: 25px 20px 15px;
+  /* align-self: center; */
   padding: 10px;
   border-radius: 10px;
   background-color: black;
-  color: rgb(238, 106, 18);
+  color: rgb(238, 106, 18) !important;
   font-size: 20px;
   font-weight: lighter;
   text-align: center;
   width: 250px;
+  box-shadow: 2px 2px 8px rgb(0, 0, 0, 0.5);
 }
 
 .cv a:hover {
   background-color: rgb(238, 106, 18);
-  color: black;
+  color: black !important;
+  box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.5);
 }
 
 .cv a:active {

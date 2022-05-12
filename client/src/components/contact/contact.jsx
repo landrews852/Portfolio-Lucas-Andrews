@@ -46,18 +46,18 @@ export default function Contact() {
             </a>
           </CopyToClipboard>
           <Toaster position="bottom-center" reverseOrder={false} />
-        </div>
-        <div>
-          <a href="https://www.linkedin.com/in/landrewsl" target="_blank" className={s.link}>
+
+
+          <a href="https://www.linkedin.com/in/landrewsl" target="_blank" rel="noopener noreferrer" className={s.link}>
             <img 
               className={s.icon}  
               src="/images/linkedin.png" 
               />
             <p className={s.txt}>linkedin.com/in/landrewsl</p>
           </a>
-        </div>
-        <div>
-          <a href="https://github.com/landrews852" target="_blank" className={s.link}>
+
+
+          <a href="https://github.com/landrews852" target="_blank" rel="noopener noreferrer" className={s.link}>
             <img 
               className={s.icon}  
               src="/images/github.png" 

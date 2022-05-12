@@ -24,7 +24,7 @@ export default function Card ({project, description, image, iframe, link}) {
             </div>
             {link
             ?<div className={s.link_wrap}>
-              <a className={s.link} href={link} target="_blank">Visit this project</a>
+              <a className={s.link} href={link} target="_blank" rel="noopener noreferrer">Visit this project</a>
             </div>
             :null
             // <div className={s.link_wrap}>
