@@ -14,7 +14,7 @@ export default function About () {
           <div className={s.infocard}>
             <span className={s.infocard_item}>Lucas Andrews</span>
             <span className={s.infocard_item}>Santiago de Chile</span>
-            <span className={s.infocard_item}>29 años</span>
+            <span className={s.infocard_item}>29 years old</span>
           </div>
         </div>
         <br/>
