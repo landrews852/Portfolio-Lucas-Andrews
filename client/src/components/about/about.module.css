@@ -23,6 +23,7 @@
   flex-direction: column;
   justify-content: start;
   align-items: start;
+  transition: all 0.5s ease-in-out;
   height: 100%;
 }
 
@@ -75,13 +76,22 @@
   text-align: center;
 }
 
-/* .cv {
-} */
+.cv {
+  /* transition: all ease-in-out 0.5s; */
+  margin: 20px 0 28px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* align-content: space-around; */
+  justify-content: center;
+}
 
-.cv a {
-  margin: 25px 20px 15px;
-  /* align-self: center; */
+.btn {
+  margin: 25px 0 15px;
   padding: 10px;
+  border: none;
+  cursor: pointer;
   border-radius: 10px;
   background-color: black;
   color: rgb(238, 106, 18) !important;
@@ -90,15 +100,40 @@
   text-align: center;
   width: 250px;
   box-shadow: 2px 2px 8px rgb(0, 0, 0, 0.5);
+  transition: all ease-in-out 0.15s;
 }
 
-.cv a:hover {
+.btn:hover {
   background-color: rgb(238, 106, 18);
   color: black !important;
   box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.5);
 }
 
-.cv a:active {
+.btn:active {
+  background-color: rgba(238, 106, 18, 0.247);
+}
+
+.btnX {
+  align-self: flex-end;
+  border: none;
+  cursor: pointer;
+  border-radius: 999px;
+  background-color: black;
+  color: rgb(238, 106, 18) !important;
+  font-size: 20px;
+  font-weight: lighter;
+  text-align: center;
+  box-shadow: 2px 2px 8px rgb(0, 0, 0, 0.5);
+  transition: all ease-in-out 0.15s;
+}
+
+.btnX:hover {
+  background-color: rgb(238, 106, 18);
+  color: black !important;
+  box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.5);
+}
+
+.btnX:active {
   background-color: rgba(238, 106, 18, 0.247);
 }
 
@@ -106,6 +141,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 20px 0;
 }
 
 .skills_title {
